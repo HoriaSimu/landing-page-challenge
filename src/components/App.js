@@ -11,9 +11,11 @@ const App = () => {
   return(
     <div>
       <HeroSection />
-      <About />
-      <Apply />
-      <Faq />
+      <main>
+        <About />
+        <Apply />
+        <Faq />
+      </main>
       <Footer />
     </div>
   );
