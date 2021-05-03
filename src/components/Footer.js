@@ -25,22 +25,22 @@ const Footer = () => {
         </form>
       </div>
       <div className="footer-bottom">
-        <div className="logo">
+        <div className="logo-bottom">
           <Logo />
         </div>
         <nav>
           <ul>
             <li>
-              <a href="#">About</a>
+              <button>About</button>
             </li>
             <li>
-              <a href="#">How To</a>
+              <button>How To</button>
             </li>
             <li>
-              <a href="#">FAQs</a>
+              <button>FAQs</button>
             </li>
             <li>
-              <a href="#" className="contact-button">Contact us</a>
+              <button className="contact-button">Contact us</button>
             </li>
           </ul>
         </nav>

@@ -9,25 +9,25 @@ const HeroSection = () => {
         <div className="logo">
           <Logo />
         </div>
-        <nav>
+        <nav className="nav-top">
           <ul>
             <li>
-              <a href="#">About</a>
+              <button href="#">About</button>
             </li>
             <li>
-              <a href="#">How To</a>
+              <button href="#">How To</button>
             </li>
             <li>
-              <a href="#">FAQs</a>
+              <button href="#">FAQs</button>
             </li>
             <li>
-              <a href="#" className="contact-button">Contact us</a>
+              <button href="#" className="contact-button">Contact us</button>
             </li>
           </ul>
         </nav>
         <h1>Your awesome traffic permit consultant.</h1>
         <a href="#" className="contact-button">Get started →</a>
-        <Mobel />
+        <Mobel className="mobel" />
       </header>
     </div>
   );
