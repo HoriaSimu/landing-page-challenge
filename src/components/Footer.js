@@ -40,7 +40,7 @@ const Footer = () => {
               <button>FAQs</button>
             </li>
             <li>
-              <button className="contact-button">Contact us</button>
+              <button>Contact us</button>
             </li>
           </ul>
         </nav>

@@ -1,0 +1,123 @@
+.hero-section {
+  width: 100%;
+  height: 937px;
+
+  background-image: url("../assets/images/scene.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  position: relative;
+
+  /*border: 1px dotted green;  */
+}
+
+.logo {
+  width: 212px;
+  height: 50px;
+
+  position: absolute;
+  top: 50px;
+  left: 240px;
+}
+
+h1 {
+  font-family: $font-headline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+
+  width: 741px;
+  height: 300px;
+
+  position: absolute;
+  top: 105px;
+  left: 240px;
+}
+
+.nav-top {
+  height: 60px;
+  padding: 40px 0 0 0;
+  position: relative;
+  left: 720px;
+}
+
+.nav-top ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 610px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex;
+}
+
+.nav-top button {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-family: $font-button;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+button.contact-button {
+  background: $red;
+  border: 0;
+  margin: 0;
+  border-radius: 5px;
+  padding: 20px 20px 20px 28px;
+
+  width: 158px;
+  height: 60px;
+}
+
+.get-started-button {
+  background: $red;
+  border: 0;
+  margin: 0;
+  border-radius: 5px;
+
+  width: 220px;
+  height: 60px;
+
+  font-family: $font-button;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  padding: 20px 80px 20px 20px;
+  background-image: url("../assets/images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  background-size: auto 12px;
+  background-color: $red;
+
+  cursor: pointer;
+
+  position: absolute;
+  top: 540px;
+  left: 240px;
+}
+
+.mobel {
+  position: absolute;
+  top: 788px;
+  left: -0px;
+}

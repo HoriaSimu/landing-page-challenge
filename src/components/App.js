@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/normalize.css';
 import '../styles/main.scss';
 
 import HeroSection from './HeroSection';
@@ -9,7 +10,7 @@ import Footer from './Footer';
 
 const App = () => {
   return(
-    <div>
+    <div className="main-wrapper">
       <HeroSection />
       <main>
         <About />

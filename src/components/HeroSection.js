@@ -12,21 +12,21 @@ const HeroSection = () => {
         <nav className="nav-top">
           <ul>
             <li>
-              <button href="#">About</button>
+              <button>About</button>
             </li>
             <li>
-              <button href="#">How To</button>
+              <button>How To</button>
             </li>
             <li>
-              <button href="#">FAQs</button>
+              <button>FAQs</button>
             </li>
             <li>
-              <button href="#" className="contact-button">Contact us</button>
+              <button className="contact-button">Contact us</button>
             </li>
           </ul>
         </nav>
         <h1>Your awesome traffic permit consultant.</h1>
-        <a href="#" className="contact-button">Get started →</a>
+        <button className="get-started-button">Get started</button>
         <Mobel className="mobel" />
       </header>
     </div>

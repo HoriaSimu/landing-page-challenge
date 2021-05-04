@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("../assets/fonts/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rubik light";
+  src: url("../assets/fonts/Rubik-Light.ttf");
+}
+
+@font-face {
+  font-family: "Rubik medium";
+  src: url("../assets/fonts/Rubik-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Rubik bold";
+  src: url("../assets/fonts/Rubik-Bold.ttf");
+}
+
+
+$font-headline: "DM Serif Display", serif;
+$font-body: "Rubik light", sans-serif;
+$font-button: "Rubik medium", sans-serif;
+
+$black: #402B2B;
+$red: #EE4D47;
+$pale-orange: #FEF8F5;

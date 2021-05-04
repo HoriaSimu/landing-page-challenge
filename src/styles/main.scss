@@ -1,5 +1,11 @@
-$font-stack: Helvetica, sans-serif;
+@import "variables";
+@import "hero-section";
 
 body {
-  font-family: $font-stack;
+  font-family: $font-body;
+  background-color: $pale-orange;
+}
+
+.main-wrapper {
+  width: 1600px;
 }
