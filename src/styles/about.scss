@@ -1,0 +1,32 @@
+.about-section {
+  display: flex;
+  gap: 26px;
+  margin: 300px 0 0 245px;
+}
+
+.about-text {
+  margin: 75px 0 40px 0;
+}
+
+.about-text p {
+  width: 470px;
+}
+
+.about-highlight {
+  box-sizing: border-box;
+  width: 570px;
+  height: 160px;
+  background-color: rgba(252, 221, 212, .4);
+  border-left: 10px $red solid;
+  border-radius: 5px 0 0 5px;
+  padding: 5px 10px 10px 40px;
+  margin-top: 70px;
+}
+
+.about-highlight p {
+  font-family: $font-button;
+  font-size: 24px;
+  line-height: 36px;
+
+  width: 460px;
+}

@@ -1,11 +1,26 @@
 @import "variables";
 @import "hero-section";
+@import "about";
 
 body {
-  font-family: $font-body;
   background-color: $pale-orange;
+
+  font-family: $font-body;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
 }
 
 .main-wrapper {
   width: 1600px;
+}
+
+h2 {
+  font-family: $font-button;
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $red;
 }
