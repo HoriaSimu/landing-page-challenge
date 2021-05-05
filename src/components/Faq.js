@@ -2,10 +2,8 @@ import React from 'react';
 import faq from "../assets/images/faq.svg";
 
 const Faq = () => {
-  // to do: function to iterate over an array of text for the questions
-
   return(
-    <section className="faq-section">
+    <section className="faq-section" id="faq">
       <div className="faq-background"></div>
       <div className="faq-top">
         <div className="faq-text">

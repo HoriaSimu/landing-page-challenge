@@ -3,7 +3,7 @@ import apply from "../assets/images/apply.svg";
 
 const Apply = () => {
   return(
-    <section className="apply-section">
+    <section className="apply-section" id="apply">
       <div className="apply-image">
         <img src={apply} alt="apply" />
       </div>
