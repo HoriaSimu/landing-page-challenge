@@ -1,11 +1,11 @@
 import React from 'react';
-import { ReactComponent as ApplyImage } from '../assets/images/apply.svg';
+import apply from "../assets/images/apply.svg";
 
 const Apply = () => {
   return(
     <section className="apply-section">
       <div className="apply-image">
-        <ApplyImage />
+        <img src={apply} alt="apply" />
       </div>
       <div className="apply-text">
         <h2>How to apply</h2>

@@ -1,13 +1,13 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../assets/images/logo.svg';
-import { ReactComponent as Mobel } from '../assets/images/mobel.svg';
+import logo from "../assets/images/logo.svg";
+import mobel from "../assets/images/mobel.svg";
 
 const HeroSection = () => {
   return(
     <div>
       <header className="hero-section">
         <div className="logo">
-          <Logo />
+          <img src={logo} alt="logo" />
         </div>
         <nav className="nav-top">
           <ul>
@@ -27,7 +27,7 @@ const HeroSection = () => {
         </nav>
         <h1>Your awesome traffic permit consultant.</h1>
         <button className="get-started-button">Get started</button>
-        <Mobel className="mobel" />
+        <img className="mobel" src={mobel} alt="mobel" />
       </header>
     </div>
   );

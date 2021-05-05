@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as FaqImage } from '../assets/images/faq.svg';
+import faq from "../assets/images/faq.svg";
 
 const Faq = () => {
   // to do: function to iterate over an array of text for the questions
@@ -13,7 +13,7 @@ const Faq = () => {
           <h3>Questions and Answers on Professional Traffic Permits:</h3>
         </div>
         <div className="faq-image">
-          <FaqImage />
+          <img src={faq} alt="faq" />
         </div>
       </div>
       <div className="faq-questions">

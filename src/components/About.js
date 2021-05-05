@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as AboutImage } from '../assets/images/about.svg';
+import about from "../assets/images/about.svg";
 
 const About = () => {
   return(
@@ -12,7 +12,7 @@ const About = () => {
         </div>
       </div>
       <div className="about-image">
-        <AboutImage />
+        <img src={about} alt="about" />
       </div>
     </section>
   );
