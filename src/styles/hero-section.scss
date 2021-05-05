@@ -87,29 +87,7 @@ button.contact-button {
   height: 60px;
 }
 
-.get-started-button {
-  background: $red;
-  border: 0;
-  margin: 0;
-  border-radius: 5px;
-
-  width: 220px;
-  height: 60px;
-
-  font-family: $font-button;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #ffffff;
-
-  padding: 20px 80px 20px 20px;
-  background-image: url("../assets/images/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: right 25px center;
-  background-size: auto 12px;
-  background-color: $red;
-
-  cursor: pointer;
-
+header .get-started-button {
   position: absolute;
   top: 540px;
   left: 240px;
