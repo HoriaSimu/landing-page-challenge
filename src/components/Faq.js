@@ -1,7 +1,25 @@
 import React from 'react';
 import faq from "../assets/images/faq.svg";
+import { faqTexts } from "../assets/texts/faq-text";
 
 const Faq = () => {
+
+  const generateQuestions = () => {
+    return faqTexts.map((text, index) => {
+      return(
+        <div className="question-card" key={text.id}>
+          <button className="question-card-header">
+            <span className="question-title">{text.question}</span>
+            <span className="question-sign"></span>
+          </button>
+          <div className="question-card-content content-show">
+            {text.answer}
+          </div>
+        </div>
+      );
+    });
+  };
+
   return(
     <section className="faq-section" id="faq">
       <div className="faq-background"></div>
@@ -15,42 +33,7 @@ const Faq = () => {
         </div>
       </div>
       <div className="faq-questions">
-        <div className="question-card">
-          <button className="question-card-header">
-            <span className="question-title">What is a professional traffic permit?</span>
-            <span className="question-sign"></span>
-          </button>
-          <div className="question-card-content content-show">
-            Traffic permits are a requirement for conducting professional traffic.
-          </div>
-        </div>
-        <div className="question-card">
-          <button className="question-card-header">
-            <span className="question-title">What is a professional traffic permit?</span>
-            <span className="question-sign"></span>
-          </button>
-          <div className="question-card-content">
-            Traffic permits are a requirement for conducting professional traffic.
-          </div>
-        </div>
-        <div className="question-card">
-          <button className="question-card-header">
-            <span className="question-title">Are there professional traffic permit training courses at a distance?</span>
-            <span className="question-sign"></span>
-          </button>
-          <div className="question-card-content">
-            Traffic permits are a requirement for conducting professional traffic.
-          </div>
-        </div>
-        <div className="question-card">
-          <button className="question-card-header">
-            <span className="question-title">What is a professional traffic permit?</span>
-            <span className="question-sign"></span>
-          </button>
-          <div className="question-card-content">
-            Traffic permits are a requirement for conducting professional traffic.
-          </div>
-        </div>
+        {generateQuestions()}
       </div>
       <div className="faq-bottom">
         <button className="load-more-button">
