@@ -46,7 +46,7 @@ const Faq = () => {
       <div className="faq-bottom">
         <button className="load-more-button">
           <span className="load-more-text">Load More</span>
-          <span className="question-sign"></span>
+          <span className="question-sign question-sign-plus"></span>
         </button>
       </div>
 
