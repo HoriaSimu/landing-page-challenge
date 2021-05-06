@@ -1,5 +1,5 @@
 # landing-page-challenge
-A landing page built after a Figma design.
+A landing page built after a Figma design. You can see it in action here: https://horiasimu.github.io/landing-page-challenge/
 
 ### Challenge:
 
