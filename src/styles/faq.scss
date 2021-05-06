@@ -44,7 +44,6 @@
 .faq-questions {
   margin-top: 90px;
   width: 1120px;
-  //border: 1px dashed red;
 
   display: flex;
   flex-wrap: wrap;
@@ -107,16 +106,6 @@
   background-color: $red;
 }
 
-.question-sign:after {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: $red;
-}
-
 .question-sign-plus:after {
   content: "";
   position: absolute;
@@ -143,7 +132,6 @@
 .faq-bottom {
   width: 1120px;
   text-align: center;
-  //border: 1px dotted red;
 }
 
 .load-more-button {

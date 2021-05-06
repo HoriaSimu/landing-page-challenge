@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import faq from "../assets/images/faq.svg";
 import { faqTexts } from "../assets/texts/faq-text";
 
 const Faq = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const onTitleClick = (index) => {
+    setActiveIndex(index);
+  };
 
   const generateQuestions = () => {
-    return faqTexts.map((text, index) => {
+    return faqTexts.map((item, index) => {
+      const activeSignClass = index === activeIndex ? '' : 'question-sign-plus';
+      const activeContentClass = index === activeIndex ? 'content-show' : '';
+
       return(
-        <div className="question-card" key={text.id}>
-          <button className="question-card-header">
-            <span className="question-title">{text.question}</span>
-            <span className="question-sign"></span>
+        <div className="question-card" key={item.id}>
+          <button className="question-card-header" onClick={() => onTitleClick(index)}>
+            <span className="question-title">{item.question}</span>
+            <span className={`question-sign ${activeSignClass}`}></span>
           </button>
-          <div className="question-card-content content-show">
-            {text.answer}
+          <div className={`question-card-content ${activeContentClass}`}>
+            {item.answer}
           </div>
         </div>
       );
