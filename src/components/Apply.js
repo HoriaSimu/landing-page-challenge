@@ -5,7 +5,7 @@ const Apply = () => {
   return(
     <section className="apply-section" id="apply">
       <div className="apply-image">
-        <img src={apply} alt="apply" />
+        <img src={apply} alt="apply" className="align-left slide-in" />
       </div>
       <div className="apply-text">
         <h2>How to apply</h2>

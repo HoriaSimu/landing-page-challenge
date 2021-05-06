@@ -55,7 +55,7 @@ const HeroSection = () => {
         </nav>
         <h1>Your awesome traffic permit consultant.</h1>
         <button className="get-started-button">Get started</button>
-        <img className="mobel" src={mobel} alt="mobel" />
+        <img className="mobel align-left slide-in" src={mobel} alt="mobel" />
       </header>
     </div>
   );
