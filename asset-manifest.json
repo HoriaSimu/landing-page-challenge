@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/landing-page-challenge/static/css/main.f7da1155.chunk.css",
+    "main.js": "/landing-page-challenge/static/js/main.90152297.chunk.js",
+    "main.js.map": "/landing-page-challenge/static/js/main.90152297.chunk.js.map",
+    "runtime-main.js": "/landing-page-challenge/static/js/runtime-main.998d75c7.js",
+    "runtime-main.js.map": "/landing-page-challenge/static/js/runtime-main.998d75c7.js.map",
+    "static/js/2.cf8bdaa9.chunk.js": "/landing-page-challenge/static/js/2.cf8bdaa9.chunk.js",
+    "static/js/2.cf8bdaa9.chunk.js.map": "/landing-page-challenge/static/js/2.cf8bdaa9.chunk.js.map",
+    "index.html": "/landing-page-challenge/index.html",
+    "static/css/main.f7da1155.chunk.css.map": "/landing-page-challenge/static/css/main.f7da1155.chunk.css.map",
+    "static/js/2.cf8bdaa9.chunk.js.LICENSE.txt": "/landing-page-challenge/static/js/2.cf8bdaa9.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/landing-page-challenge/static/media/scene.cd0e5c7d.svg",
+    "static/media/about.a12b1925.svg": "/landing-page-challenge/static/media/about.a12b1925.svg",
+    "static/media/apply.d5d24eb5.svg": "/landing-page-challenge/static/media/apply.d5d24eb5.svg",
+    "static/media/faq.698edc1d.svg": "/landing-page-challenge/static/media/faq.698edc1d.svg",
+    "static/media/icon-fb.2cc57c8f.svg": "/landing-page-challenge/static/media/icon-fb.2cc57c8f.svg",
+    "static/media/icon-insta.56bd477f.svg": "/landing-page-challenge/static/media/icon-insta.56bd477f.svg",
+    "static/media/icon-t.d9dede7c.svg": "/landing-page-challenge/static/media/icon-t.d9dede7c.svg",
+    "static/media/logo.df0a6ed7.svg": "/landing-page-challenge/static/media/logo.df0a6ed7.svg",
+    "static/media/mobel.940e56b8.svg": "/landing-page-challenge/static/media/mobel.940e56b8.svg",
+    "static/media/semicircle1.e4c05875.svg": "/landing-page-challenge/static/media/semicircle1.e4c05875.svg",
+    "static/media/semicircle2.69b814ed.svg": "/landing-page-challenge/static/media/semicircle2.69b814ed.svg",
+    "static/media/trekmobil.cca8a5c5.svg": "/landing-page-challenge/static/media/trekmobil.cca8a5c5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.998d75c7.js",
+    "static/js/2.cf8bdaa9.chunk.js",
+    "static/css/main.f7da1155.chunk.css",
+    "static/js/main.90152297.chunk.js"
+  ]
+}
