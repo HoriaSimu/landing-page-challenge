@@ -6,7 +6,11 @@ const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const onTitleClick = (index) => {
-    setActiveIndex(index);
+    if (activeIndex !== index ) {
+      setActiveIndex(index);
+    } else {
+      setActiveIndex(null);
+    }
   };
 
   const generateQuestions = () => {
